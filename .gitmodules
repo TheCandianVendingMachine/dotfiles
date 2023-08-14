@@ -1,0 +1,6 @@
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/TheCandianVendingMachine/nvim-config
+[submodule ".config/alacritty"]
+	path = .config/alacritty
+	url = https://github.com/TheCandianVendingMachine/alacritty-config
