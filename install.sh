@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 for d in * .[^.]*; do
-    if [ "$d" = ".config" ] |\ [ "$d" = ".git" ] || [ "$d" = ".gitmodules" ] || [ "$d" = "install.sh" ]; then
+    if [ "$d" = ".config" ] || [ "$d" = ".git" ] || [ "$d" = ".gitmodules" ] || [ "$d" = "install.sh" ]; then
         continue
     fi
     if [ -f "$d" ]; then
